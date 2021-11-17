@@ -10,7 +10,7 @@ app.use(cors());
 
 dotenv.config({ path: "config.env" });
 
-const uri = `mongodb+srv://FEDEX:FEDEX@cluster0.dpr9k.mongodb.net/FedEX?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://newdb:fnftGcATBe76QiIx@cluster0.dpr9k.mongodb.net/FedEX?retryWrites=true&w=majority`;
 const client = new MongoClient(uri);
 async function run() {
    try {
